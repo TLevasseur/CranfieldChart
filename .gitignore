@@ -1,3 +1,14 @@
+#latexFile
+*.aux
+*.lof
+*.lot
+*.log
+*.toc
+*.bbl
+*.run.xml
+*.gz
+*.blg
+main-blx.bib
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
