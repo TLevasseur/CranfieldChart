@@ -56,8 +56,14 @@ Thibaud Levasseur]
 				\end{scope}
 			\end{tikzpicture}
 		}
-		\put(-50,280){\color{Cranfield_PrussianBlue}\Huge \helvetica{#1}}
-		\put(-50,250){\color{Cranfield_PrussianBlue}\Large \helvetica{#2}}
+		\put(-70,300){
+			\begin{minipage}[t]{90mm}
+				\color{Cranfield_PrussianBlue}\Huge \helvetica{#1}
+				\paragraph{}
+				\Large \helvetica{#2}
+			\end{minipage}
+		}
+		%\put(-50,250){\color{Cranfield_PrussianBlue}\Large \helvetica{#2}}
 		\put(200,-350){\color{Cranfield_CoolGrey} \Large \helvetica{#3}}
 		\put(210,-370){\color{Cranfield_CoolGrey} \Large \helvetica{#4}}
 		\put(400,-390){\color{Cranfield_CoolGrey} \Large \helvetica{\today}}
