@@ -29,7 +29,7 @@ Thibaud Levasseur]
 \RequirePackage {etoolbox}
 \RequirePackage {changepage}
 
-\RequirePackage [backend=bibtex,style=verbose-trad2]{biblatex}
+\RequirePackage [backend=bibtex,style=numeric]{biblatex}
 \DeclareTextFontCommand{\helvetica}{\fontfamily{phv}\selectfont}
 
 \pagestyle{fancy}
@@ -48,11 +48,11 @@ Thibaud Levasseur]
 		\put(280,300){\includegraphics[width=65mm]{ressources/logo.pdf}}
 		\put(-300,50){\includegraphics[angle=30,width=180mm]{ressources/square.pdf}}
 		\put(-400,-500){
-			
+
 			\begin{tikzpicture}[rotate=30,every node/.style={draw}]
 				\begin{scope}
-					\clip [rounded corners=.5cm] (-5,-5) rectangle coordinate (centerpoint) (20,10cm); 
-					\node [inner sep=0pt] at (centerpoint) {\includegraphics[angle=30,width=50.0cm]{ressources/#5}}; 
+					\clip [rounded corners=.5cm] (-5,-5) rectangle coordinate (centerpoint) (20,10cm);
+					\node [inner sep=0pt] at (centerpoint) {\includegraphics[angle=30,width=50.0cm]{ressources/#5}};
 				\end{scope}
 			\end{tikzpicture}
 		}
@@ -65,9 +65,8 @@ Thibaud Levasseur]
 		}
 		%\put(-50,250){\color{Cranfield_PrussianBlue}\Large \helvetica{#2}}
 		\put(200,-350){\color{Cranfield_CoolGrey} \Large \helvetica{#3}}
-		\put(210,-370){\color{Cranfield_CoolGrey} \Large \helvetica{#4}}
-		\put(400,-390){\color{Cranfield_CoolGrey} \Large \helvetica{\today}}
+		\put(229,-370){\color{Cranfield_CoolGrey} \Large \helvetica{#4}}
+		\put(407,-390){\color{Cranfield_CoolGrey} \Large \helvetica{\today}}
 	\end{picture}
 	\newpage
 }
-

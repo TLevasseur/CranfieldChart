@@ -1,14 +1,13 @@
 \documentclass{cranfieldChart}
 
-\bibliography{biblio.bib} 
-
+\bibliography{biblio}
 
 \begin{document}
 
 \maketitle{About report \& latex}{Thibaud Levasseur}{School of Aerospace, Transport and Manufacturing}{Software Engineering for Technical Computing }{cover.png}
 
 \begin{abstract}
-This is the abstract of my very important report about that lab we did that day, and I have tons of results to comment. 
+This is the abstract of my very important report about that lab we did that day, and I have tons of results to comment.
 \end{abstract}
 
 \newpage
@@ -46,7 +45,7 @@ Those results are in the figure \ref{resuts}. The caption is on the top of it !
 Here is a picture of a tree (see figure \ref{tree}). It has the caption under it !
 \begin{figure}[!h]
 	\centering
-	
+
 	\includegraphics{ressources/tree.jpg}
 	\caption{A big tree}
 	\label{tree}
@@ -54,7 +53,7 @@ Here is a picture of a tree (see figure \ref{tree}). It has the caption under it
 \subsection{Of the third thing}
 I am so sorry, I forgot.
 \paragraph{}
-Maybe I could remember in that new paragraph what i read in that book : "1+1=2" \autocite{ref0}
+Maybe I could remember in that new paragraph what i read in that book : "1+1=2" \cite{ref0}
 
 \newpage
 \section{Conclusion}
@@ -64,6 +63,9 @@ Done ! See you for the prom !
 
 \printbibliography
 
+\newpage
 
+\appendix
+\section{An appendix}
 
 \end{document}
